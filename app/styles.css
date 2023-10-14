@@ -3,7 +3,15 @@
 @import '@rubriclab/ui/build.css';
 
 html {
-	@apply bg-off-white;
+	@apply bg-white dark:bg-black;
+}
+
+h1,
+h2,
+h3,
+p,
+a {
+	@apply text-black dark:text-white;
 }
 
 h1 {
@@ -20,4 +28,8 @@ a {
 
 blockquote {
 	@apply border-stone-500/80;
+}
+
+button {
+	@apply bg-black text-white dark:bg-white dark:text-black !important;
 }

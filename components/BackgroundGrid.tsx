@@ -2,12 +2,18 @@ import tailwindConfig from '../tailwind.config'
 
 const lineAttributes = {
 	fill: 'none',
-	opacity: 0.4,
-	stroke: tailwindConfig.theme.colors['stone'][400],
+	opacity: 0.3,
+	stroke: tailwindConfig.theme.colors['neutral'][500],
 	strokeWidth: 1
 }
 
-function BackgroundGrid({className, ...props}: {className?: string; [key: string]: any}) {
+function BackgroundGrid({
+	className,
+	...props
+}: {
+	className?: string
+	[key: string]: any
+}) {
 	return (
 		<svg
 			className={className}
