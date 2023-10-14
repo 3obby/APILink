@@ -1,32 +1,39 @@
 {
 	"dependencies": {
-		"@rubriclab/ui": "latest",
-		"@rubriclab/utils": "latest",
-		"next": "^13.4.18",
+		"@rubriclab/ui": "^1.0.0",
+		"@rubriclab/utils": "^1.0.0",
+		"next": "^13.5.4",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0"
 	},
 	"devDependencies": {
-		"@rubriclab/eslint-config": "latest",
-		"@rubriclab/prettier-config": "latest",
-		"@rubriclab/tailwind-config": "latest",
-		"@rubriclab/typescript-config": "latest",
-		"@types/node": "20.5.1",
-		"@types/react": "18.2.20",
-		"@types/react-dom": "18.2.7",
-		"autoprefixer": "^10.4.15",
-		"eslint": "^8.47.0",
-		"postcss": "^8.4.28",
-		"prettier": "^3.0.2",
+		"@rubriclab/eslint-config": "^1.0.0",
+		"@rubriclab/prettier-config": "^1.1.0",
+		"@rubriclab/tailwind-config": "^1.0.0",
+		"@rubriclab/typescript-config": "^1.0.0",
+		"@types/node": "^20.8.6",
+		"@types/react": "^18.2.28",
+		"@types/react-dom": "^18.2.13",
+		"autoprefixer": "^10.4.16",
+		"eslint": "^8.51.0",
+		"postcss": "^8.4.31",
+		"prettier": "^3.0.3",
 		"tailwindcss": "^3.3.3",
-		"typescript": "^5.1.6"
+		"typescript": "^5.2.2"
 	},
-	"name": "my-cool-app",
+	"name": "api-link",
 	"private": true,
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/3obby/APILink.git"
+	},
 	"scripts": {
+		"bleed": "bunx yarn-upgrade-all -W && rm yarn.lock && bun install",
 		"build": "next build",
 		"dev": "next dev",
+		"format": "prettier --write .",
 		"lint": "eslint . --ext .js,.jsx,.cjs,.mjs,.json,.ts,.tsx",
+		"lint:fix": "eslint . --ext .js,.jsx,.cjs,.mjs,.json,.ts,.tsx --fix",
 		"start": "next start"
 	},
 	"version": "0.0.0"
