@@ -38,8 +38,10 @@ export default async function Image({params}: Props) {
 						width: size.width
 					}}
 				/>
-				<div style={{fontSize: 128}}>My Cool App</div>
-				<div style={{color: colors['orange']['700'], fontSize: 48}}>Built with Rubric.</div>
+				<div style={{fontSize: 128}}>API Link</div>
+				<div style={{color: colors['orange']['700'], fontSize: 48}}>
+					Get data on-chain in minutes.
+				</div>
 			</div>
 		),
 		{
