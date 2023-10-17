@@ -8,7 +8,9 @@ const tailwindConfig = {
 	theme: {
 		colors: {
 			...config.theme.colors,
-			'off-white': '#E2DCDB'
+			'off-white': '#E2DCDB',
+			'pale-olive': '#93A470',
+			'weak-tan': '#FDFFE5'
 		},
 		extend: {
 			fontFamily: {
