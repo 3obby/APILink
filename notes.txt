@@ -1,0 +1,3 @@
+suggest tailwind vs code extension
+files to exclude in search is confusing
+fonts.ts link dead
