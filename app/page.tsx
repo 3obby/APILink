@@ -2,7 +2,7 @@ import {ContactButton} from '@rubriclab/ui'
 import {Metadata} from 'next'
 import {DEFAULT_META} from '../constants/metadata'
 
-import {Inter, Permanent_Marker} from '@next/font/google'
+import {Inter, Permanent_Marker} from 'next/font/google'
 
 const marker = Permanent_Marker({
 	display: 'swap',
