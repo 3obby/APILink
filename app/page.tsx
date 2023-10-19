@@ -5,19 +5,19 @@ import {DEFAULT_META} from '../constants/metadata'
 import {Inter, Permanent_Marker} from '@next/font/google'
 
 const marker = Permanent_Marker({
-	preload: true,
+	preload: false,
 	subsets: ['latin'],
 	weight: '400'
 })
 
 const inter = Inter({
-	preload: true,
+	preload: false,
 	subsets: ['latin'],
 	weight: '500'
 })
 
 const interThin = Inter({
-	preload: true,
+	preload: false,
 	subsets: ['latin'],
 	weight: '300'
 })
